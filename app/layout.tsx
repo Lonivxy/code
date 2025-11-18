@@ -11,17 +11,17 @@ const _geistMono = V0_Font_Geist_Mono({ subsets: ['latin'], weight: ["100","200"
 const _sourceSerif_4 = V0_Font_Source_Serif_4({ subsets: ['latin'], weight: ["200","300","400","500","600","700","800","900"] })
 
 export const metadata: Metadata = {
-  title: 'v0.app',
+  title: "Explorer's Feast | 探索者的盛宴",
   description: 'ily <3',
   generator: 'Lonivxy',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: 'https://cdn.modrinth.com/data/d1rE2v8g/10590dcc0d7219f0015770051027376da465ed60_96.webp',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: 'https://cdn.modrinth.com/data/d1rE2v8g/10590dcc0d7219f0015770051027376da465ed60_96.webp',
         media: '(prefers-color-scheme: dark)',
       },
       {
