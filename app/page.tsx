@@ -34,18 +34,18 @@ const translations = {
     discord: '加入 Discord 社区',
     qqGroup: '加入 QQ 群',
     bilibili: '作者 B 站',
-    copyright: '© 2025 Lonivxy & KimiOkComputer',
+    copyright: '© 2025 Lonivxy, Made with v0.app & ChatGPT',
     totalMods: '总模组数',
     structures: '建筑结构',
     biomes: '生物群系',
     performance: '性能提升',
     themes: {
-      light: '明亮',
-      dark: '暗黑',
-      purple: '淡紫',
-      green: '翠绿',
-      pink: '樱花',
-      violet: '深紫',
+      light: '晨光熹微',
+      dark: '玄夜沉沉',
+      purple: '藤色梦幻',
+      green: '翠色欲流',
+      pink: '樱华如霰',
+      violet: '紫雲之烟',
     }
   },
   en: {
@@ -67,7 +67,7 @@ const translations = {
     discord: 'Join Discord Community',
     qqGroup: 'Join QQ Group',
     bilibili: 'YouTube Channel',
-    copyright: '© 2025 Lonivxy & KimiOkComputer',
+    copyright: '© 2025 Lonivxy, Made with v0.app & ChatGPT',
     totalMods: 'Total Mods',
     structures: 'Structures',
     biomes: 'Biomes',
@@ -100,18 +100,18 @@ const translations = {
     discord: 'Discord コミュニティに参加',
     qqGroup: 'QQ グループに参加',
     bilibili: 'YouTube チャンネル',
-    copyright: '© 2025 Lonivxy & KimiOkComputer',
+    copyright: '© 2025 Lonivxy, Made with v0.app & ChatGPT',
     totalMods: '総 MOD 数',
     structures: '構造物',
     biomes: 'バイオーム',
     performance: 'FPS 向上',
     themes: {
-      light: 'ライト',
-      dark: 'ダーク',
-      purple: 'パープル',
-      green: 'グリーン',
-      pink: 'ピンク',
-      violet: 'バイオレット',
+      light: 'ぎょうこう',
+      dark: 'げんぼく',
+      purple: 'ふじいろ',
+      green: 'そうすい',
+      pink: 'さくらいろ',
+      violet: 'すみれいろ',
     }
   },
 }
@@ -388,7 +388,7 @@ function StatsSection({ language }: { language: Language }) {
   const [showPlus, setShowPlus] = useState({ mods: false, structures: false, biomes: false, fps: false })
 
   useEffect(() => {
-    const targets = { mods: 300, structures: 500, biomes: 150, fps: 500 }
+    const targets = { mods: 300, structures: 500, biomes: 150, fps: 200 }
     const duration = 3000
     const steps = 60
     const interval = duration / steps
